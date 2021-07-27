@@ -27,10 +27,14 @@ int main()
         cout << endl;
     }
 
+    //Console Reset Code
+    /*cout <<"\033c";*/
+
     cout << "\n\n\n\n\n\n\n";
 
     int i, j, n;
 
+    //%3d = 3 space padding + print decimal(integer)
     for (i = 0; i < 11; i++) 
     {
         for (j = 0; j < 10; j++) 
@@ -43,3 +47,4 @@ int main()
     }
 
 }
+
